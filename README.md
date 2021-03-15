@@ -2,12 +2,12 @@
 
 idSaveDecompressor is a tool for decompressing DOOM Eternal saved games (game_duration.dat). This makes it possible to read and edit the file in a hex editor. 
 
-***Important:***  It is highly recommended that you back up your saved games before using this tool. This tool does not take backups. I do not take responsibility for any file corruption or loss of data that may occur.
+***Important:***  It is _highly recommended_ that you back up your saved games before using this tool. This tool does not take backups. I do not take responsibility for any file corruption or loss of data that may occur. You can easily corrupt your save by editing it incorrectly. **Make sure you have a backup.**
 
 ## Requirements
 
-1. DOOMSaveManager - this tool must be used to "Export" the save before it can be decompressed. Download here: https://github.com/GoobyCorp/DOOMSaveManager/releases/tag/1.3.0.5
-2. A licensed Steam or Bethesda.net copy of DOOM Eternal. *Other versions may not work with DOOMSaveManager*
+1. **DOOMSaveManager** - this tool must be used to "Export" the save before it can be decompressed. Download here: https://github.com/GoobyCorp/DOOMSaveManager/releases/tag/1.3.0.5
+2. A licensed **Steam or Bethesda.net** copy of DOOM Eternal. *Other versions may not work with DOOMSaveManager*
 3. **oo2core_8_win64.dll** - you can find this file in your DOOM Eternal installation directory. It must be copied to the same directory as idSaveDecompressor.exe.
 
 ## Usage 
@@ -20,9 +20,6 @@ idSaveDecompressor is a tool for decompressing DOOM Eternal saved games (game_du
 4. Drag & drop the "game_duration.dat" file onto "idSaveDecompressor_Auto.bat" - pay attention to the console message and verify it says *"file unpacked succesfully"*.
 5. The file is now ready for viewing or editing in a hex editor.
 
-Note: At this time, no guidance is offered for editing the save data. However, if you have a copy of 010 Editor (free for 30 days), you can use the included template file to make the data easier to read.
-
-You can easily corrupt your save by editing it incorrectly. Make sure you have a backup.
 
 ### To Compress & Reimport:
 
@@ -54,11 +51,11 @@ idSaveDecompressor.exe [options] source dest
 	-d	Decompresses a compressed game_duration.dat file
 ```
 
-## Viewing the decompressed file
+## Viewing / Editing the decompressed file
 
 game_duration.dat is a binary file and will require the use of a hex editor for viewing. I personally recommend 010 Editor, which is free to try for 30-days. https://www.sweetscape.com/010editor/.
 
-The file `templates\DOOMSaveGame_Decompressed.bt` is a 010 Editor template which can be used to make the save file easily readable. The file structure is fully understood and outlined in this template. 
+This repository includes a 010 Editor template to make the file easier to read. The file structure is fully understood and outlined in this template. See `templates/DOOMSaveGame_Decompressed.bt`
 
 ## Troubleshooting
 
