@@ -80,7 +80,7 @@ All other errors, please make a note of the exact error message you received, an
 
 ## Credits:
 - Thank you to chrispy for identifying the hash function used to validate the saves.
-- Thank you to proteh (https://github.com/dcealopez) for his idFileDecompressor, which was initially used as a code template for this project.
+- Thank you to proteh (https://github.com/dcealopez) for his idFileDecompressor, which used as a code template early on.
 - Thank you to GoobyCorp (https://github.com/GoobyCorp) for his project DoomSaveManager.
 - Thank you to powzix (https://github.com/powzix) for his project powzix/ooz - which helped me to troubleshoot the Oodle decompression and work out the format.
 
