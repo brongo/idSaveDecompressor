@@ -1,8 +1,10 @@
 # idSaveDecompressor v0.1 by SamPT
 
-idSaveDecompressor is a tool for decompressing DOOM Eternal saved games (game_duration.dat). This makes it possible to read and edit the file in a hex editor. 
+idSaveDecompressor is a tool for decompressing DOOM Eternal saved games (game_duration.dat). 
 
-***Important:***  It is _highly recommended_ that you back up your saved games before using this tool. This tool does not take backups. I do not take responsibility for any file corruption or loss of data that may occur. You can easily corrupt your save by editing it incorrectly. **Make sure you have a backup.**
+This makes it possible to read and edit the file in a hex editor. 
+
+**Make sure you have a backup of your saves before using this tool.** This tool does not take backups. I do not take responsibility for any file corruption or loss of data that may occur. You can easily corrupt your save by exporting or editing it incorrectly.
 
 ## Requirements
 
